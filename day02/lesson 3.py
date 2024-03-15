@@ -1,0 +1,1 @@
+print ("I think of goa like school but better more fun better techers and goa is just better place to be.I jsut got to join goa but I see how good this place is.you study but its not boaring like scholl homework.you can join goa with no regret,goa really is the best place to be in.")
