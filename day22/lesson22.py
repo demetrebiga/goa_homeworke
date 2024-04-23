@@ -1,17 +1,11 @@
+username = "mr chad"
+
+user_name = input("please enter your username ")
+
+while user_name != username:
+    user_name = input("please try another username:  ")
 
 
-best_academy = input("what is the best academy?:  ")
-
-
-while best_academy != "GOA":
-    best_academy = input("what is the best academy?")
-
-
-print('GOA BESTTT')
-
-
-
-
-
+print("this will work!")
 
 
