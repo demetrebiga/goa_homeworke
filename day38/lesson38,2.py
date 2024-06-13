@@ -1,0 +1,2 @@
+family =['shorena', 'tengiz', 'demetre', 'chito', 'gia', 'nika']
+print("გამარჯობა მე მქვია " + (family[2]) + " დედაჩემს სახელია " + (family[0]) + " მამაჩემს " + (family[1]) + " ჩემი ბებოს სახელია " + (family[3]) + " ჩემ ბიძას ჰქვია " + (family[4]) + " და ჩემ ბიძაშვილს ჰქვია " + (family[5]))
