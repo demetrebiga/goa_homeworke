@@ -1,5 +1,4 @@
 
-
 best_academy = input("what is the best academy?:  ")
 
 
@@ -8,9 +7,6 @@ while best_academy != "GOA":
 
 
 print('GOA BESTTT')
-
-
-
 
 
 
