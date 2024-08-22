@@ -8,7 +8,6 @@ for i in range(10):
     numbers.append(number)
 
 
-
 over_100 = [numbers]
 under_100 = [number]
 
