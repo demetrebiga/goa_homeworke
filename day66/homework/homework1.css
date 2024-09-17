@@ -1,0 +1,10 @@
+#a{
+    height: 700px;
+    width: 1000px;
+    background-color: rgb(0, 0, 0);
+}
+#a,b{
+    color: red;
+    height: 25%;
+    width: 25%;
+}
