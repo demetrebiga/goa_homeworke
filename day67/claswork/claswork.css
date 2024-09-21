@@ -1,0 +1,9 @@
+#a{
+    text-decoration: wavy underline rgb(0, 183, 255);
+}
+#b{
+    text-decoration: line-through red;
+}
+#c{
+    text-decoration: dashed overline blue;
+}
