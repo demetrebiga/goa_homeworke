@@ -1,0 +1,39 @@
+#a{
+    text-align: right;
+    text-decoration: underline dashed green;
+}
+#b{
+    text-align: center;
+    text-decoration: line-through;
+}
+#c{
+    text-decoration: overline double red;
+}
+#d{
+    text-align: center;
+    text-decoration: underline;
+}
+#e{
+    text-align: right;
+    text-decoration: line-through dashed green;
+}
+#f{
+    text-decoration: line-through;
+}
+#g{
+    text-decoration: overline;
+}
+#h{
+    color: green;
+    text-align: right;
+    text-decoration: overline green;
+}
+#i{
+    text-align: center;
+    color: gray;
+    text-decoration: overline gray;
+}
+#j{
+    text-align: right;
+    text-decoration: underline dashed green;
+}

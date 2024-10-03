@@ -1,0 +1,23 @@
+#u{
+    background-color: black;
+}
+
+#a{
+    color: red;
+    text-shadow: 10px 10px 5px green; 
+}
+
+#b{
+    color: blue;
+    text-shadow: 5px 5px 2px red;
+}
+
+#c{
+    color: aqua;
+    text-shadow: 15px 15px 8px white;
+}
+
+#d{
+    color: white;
+    text-shadow: 2px 2px 3px blue;
+}

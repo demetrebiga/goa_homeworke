@@ -1,0 +1,12 @@
+#a{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+#b{
+    text-transform: lowercase;
+    text-decoration: line-through;
+}
+#c{
+    text-transform: capitalize;
+    text-decoration: overline;
+}
