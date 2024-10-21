@@ -1,0 +1,7 @@
+table , tr , td{
+    border-top: dotted red;
+    border-left: dashed green;
+    border-right: solid red;
+    border-bottom: solid green;
+    padding: 2px;
+}
