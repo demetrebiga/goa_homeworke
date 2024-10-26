@@ -1,0 +1,16 @@
+.one{
+    border-left: dotted green; /* border-left, border-right, border-bottom და border-top-ის დახმარებით შეგიძლია რომ ბორდერის ყველა გვერდს მისვცე თავის სტილი და ფერი*/
+    border-right: dashed red;
+    border-top: solid yellow;
+    border-bottom: solid brown;
+    padding: 5px; /*padding-ით შეგიძლია რომ border-left, border-right, border-bottom და border-top გამოყო თავიანთი ფერებიდან და სტილებიდან*/
+    background-color: blue;
+}
+.tow{
+    border-left: solid red;
+    border-right: solid greenyellow;
+    border-bottom: dashed blue;
+    border-top: dotted purple;
+    padding: 4px;
+    margin: 100px;/*margin-ი კი გამოყოფს ადგილს table-ბიდან და div-იდან*/
+}
