@@ -1,0 +1,14 @@
+input[type="text"]{
+    border: dotted red 6px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 10px 5px;
+}
+input[type="email"]{
+    border: 5px solid greenyellow;
+    border-radius: 15px;
+    padding: 2px;
+    margin: 10px;
+    box-shadow: 10px 8px 10px;
+}
