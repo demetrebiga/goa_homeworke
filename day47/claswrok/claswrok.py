@@ -1,1 +1,1 @@
-#I <3 GOA
+print("no claswork")
