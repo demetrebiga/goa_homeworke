@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+h1{
+    text-align: center;
+}
+.image img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+header{
+    background-color: lightblue;
+    border-radius: 20px;
+    width: 800px;
+    height: 300px;
+}
+
+.text{
+    text-align: start;
+    padding: 80px;
+}
+main{
+    background-color: lightblue;
+    border-radius: 20px;
+    height: 500px;
+    width: 400px;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+footer{
+    background-color: lightblue;
+    border-radius: 20px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: line-through;
+}
