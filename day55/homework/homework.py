@@ -1,0 +1,1 @@
+print("no homework bacuse of new year")
