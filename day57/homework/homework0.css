@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 800px;
+    width: 90%;
+}
+
+.result-section {
+    flex: 1;
+    background: linear-gradient(180deg, #4e00ec, #8a2be2);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.result-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.score-circle {
+    background: rgba(255, 255, 255, 0.2);
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.score {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.of {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.status {
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+.summary-section {
+    flex: 1;
+    padding: 30px;
+}
+
+.summary-section h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.summary-item.reaction {
+    background-color: #ffe6e6;
+    color: #ff6b6b;
+}
+
+.summary-item.memory {
+    background-color: #fff4cc;
+    color: #f5a623;
+}
+
+.summary-item.verbal {
+    background-color: #e6f7ff;
+    color: #1fa2ff;
+}
+
+.summary-item.visual {
+    background-color: #e8f7e8;
+    color: #51c878;
+}
+
+.continue-btn {
+    background-color: #1a1a3b;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.continue-btn:hover {
+    background-color: #333355;
+}
