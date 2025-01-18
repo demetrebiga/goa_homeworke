@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    animation: rotate 3s infinite;
+}
+  
+  .red {
+    background-color: red;
+    animation-timing-function: ease;
+    animation-direction: normal;
+}
+  
+  .green {
+    background-color: green;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+  
+  .blue {
+    background-color: blue;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+  
+  .black {
+    background-color: black;
+    animation-timing-function: ease-out;
+    animation-direction: alternate-reverse;
+} 
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(720deg);
+    }
+}

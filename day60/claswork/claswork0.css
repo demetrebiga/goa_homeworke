@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  animation: rotate 3s infinite;
+}
+
+.box1 {
+  background-color: red;
+  animation-timing-function: linear;
+}
+
+.box2 {
+  background-color: blue;
+  animation-timing-function: ease;
+}
+
+.box3 {
+  background-color: green;
+  animation-timing-function: ease-in;
+}
+
+.box4 {
+  background-color: black;
+  animation-timing-function: ease-out;
+}
+
+.box5 {
+  background-color: purple;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(720deg);
+  }
+}
