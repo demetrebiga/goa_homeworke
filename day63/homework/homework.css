@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 300px;
+}
+
+.icons img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f4f1eb;
+}
+
+.hero-text {
+    max-width: 40%;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+}
+
+.hero-text h1 span {
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 18px;
+}
+.move{
+    padding-left: 500px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.hero-image{
+    width: 599px;
+    height: 521px;
+    top: 9px;
+    left: 781px;
+    gap: 0px;
+    opacity: 0px;
+}
+.sh{
+    padding-left: 100px;
+}
+.sr{
+    height: 25px;
+    width: 40px;
+}
+.lo{
+    height: 25px;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.best-sellers {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.books {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.book {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    max-width: 200px;
+}
+
+.book img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.book h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.book p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.book a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+
+.people-society {
+    background: #f4f1eb;
+    padding: 40px 20px;
+}
+
+.people-society .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.people-society img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.people-society .text {
+    max-width: 400px;
+    text-align: left;
+}
+
+.people-society .text h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.people-society .text a {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.our-guides{
+    background-color: white;
+}
+.a{
+    margin: 50px;
+    padding: 50px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background: white;
+    margin: 20px 0;
+}
+
+.text {
+    max-width: 400px;
+    padding: 20px;
+}
+
+.text h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.text a {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.features {
+    padding: 50px;
+    background: white;
+}
+
+.feature-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    flex-direction: column;
+    text-align: center;
+    max-width: 150px;
+}
+
+.dot {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.cyan {
+    background: #00d4ff;
+}
+
+.brown {
+    background: #b97a57;
+}
+
+.red {
+    background: #ff3b3b;
+}
+
+.purple {
+    background: #9b59b6;
+}
