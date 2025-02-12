@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eee;
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
+.card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.card.one { background-color: #60a5fa; }
+.card.two { background-color: #fbbf24; }
+.card.three { background-color: #1e3a8a; }
+.card h2 {
+    margin: 0 0 10px;
+}
+.card p {
+    font-size: 14px;
+    line-height: 1.5;
+    opacity: 70%;
+}
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    opacity:70%;
+}
