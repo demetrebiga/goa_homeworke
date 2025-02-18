@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 80%;
+    max-width: 1200px;
+}
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.purple {
+    background-color: #733FC8;
+    color: white;
+    grid-column: span 2;
+}
+.white {
+    background-color: white;
+    color: black;
+    height: 300px;
+}
+.dark {
+    background-color: #333;
+    color: white;
+    grid-column: span 2;
+}
+.grey{
+    background-color: rgb(82, 82, 92);
+    color: white;
+}
+.light {
+    background-color: #ECEFF1;
+    color: black;
+    grid-column: span 2;
+    width: 300px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.quote{
+    opacity: 70%;
+}
+p{
+    opacity: 70%;
+}
