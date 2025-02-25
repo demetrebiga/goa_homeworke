@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-btn {
+    background-color: orange;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: left;
+    gap: 50px;
+}
+
+.content h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.highlight {
+    color: orange;
+}
+
+.buttons button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.hire-btn {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+.experience-btn {
+    background-color: orange;
+    color: white;
+    border-radius: 25px;
+}
+
+.image img {
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+@media (max-width: 1024px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+    .image img {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        font-size: 15px;
+    }
+    .hero {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact-btn {
+        margin-top: 10px;
+    }
+    .content h2 {
+        font-size: 28px;
+    }
+    .buttons button {
+        padding: 8px 15px;
+    }
+}
