@@ -396,3 +396,148 @@ p {
 .a1{
     position: relative;
 }
+.o {
+    height: 60vh;
+}
+.pi {
+    background-color: rgba(245, 247, 250, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.containe {
+    text-align: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 44.55px;
+}
+
+.cta-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: rgba(76, 175, 79, 1);
+}
+
+.footer {
+    background-color: rgba(38, 50, 56, 1);
+    padding: 40px 80px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-left, .footer-links, .footer-right {
+    flex: 1;
+}
+.footer-left{
+    text-align: left;
+}
+
+.logo-img {
+    width: 142.95px;
+    height: 25.65px;
+    margin-bottom: 10px;
+    gap: 6.88px;
+}
+
+.copyright {
+    font-size: 13.74px;
+    margin-top: 10px;
+    color: rgba(245, 247, 250, 0.603);
+
+}
+
+.social-icons {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.footer-links {
+    display: flex;
+    gap: 50px;
+}
+
+.column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column ul li {
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.column ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-right h3 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.email-box {
+    width: 220.5px;
+    height: 27.84px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.13);
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.email-box input {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px;
+    flex: 1;
+}
+
+.email-box button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.email-box button img {
+    width: 20px;
+    height: 20px;
+}
